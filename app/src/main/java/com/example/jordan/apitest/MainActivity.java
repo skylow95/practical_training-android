@@ -6,12 +6,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.jordan.apitest.api.GitApi;
+import com.example.jordan.apitest.api.RequestManager;
+import com.example.jordan.apitest.api.RequestMethod;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import retrofit.Callback;
-import retrofit.RestAdapter;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
@@ -32,13 +35,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        String user = "jordan1997";
 
-        RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint(Values.HOST).build();
+        Map<String, String> options = new HashMap<>();
+        options.put("username", "jordan1997");
 
-        GitApi git = restAdapter.create(GitApi.class);
-        git.myPost(user, this);
+        RequestManager requestManager = new RequestManager();
+        requestManager.send(RequestMethod.GET_USER_INFO, options, this);
 
     }
 

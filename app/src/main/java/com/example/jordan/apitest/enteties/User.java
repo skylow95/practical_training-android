@@ -1,9 +1,9 @@
-package com.example.jordan.apitest.model;
+package com.example.jordan.apitest.enteties;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class GitModel {
+public class User {
 
     @SerializedName("login")
     @Expose

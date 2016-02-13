@@ -5,8 +5,6 @@ package com.example.jordan.apitest;
  */
 public class Values {
 
-    public static String API = "https://api.github.com";
-
-    public static String HOST = "http://joshmarcovs.comxa.com";
+    public static String GIT_LINK = "https://api.github.com";
 
 }
