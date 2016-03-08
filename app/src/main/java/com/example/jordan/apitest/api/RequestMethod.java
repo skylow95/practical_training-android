@@ -5,6 +5,10 @@ package com.example.jordan.apitest.api;
  */
 public enum RequestMethod {
 
-    GET_USER_INFO
+    GET_PERSON_INFO,
+    ADD_NEW_ABSENCE,
+    DELETE_ABSENCE,
+    UPDATE_ABSENCE
+
 
 }

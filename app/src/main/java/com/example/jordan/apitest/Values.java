@@ -5,6 +5,6 @@ package com.example.jordan.apitest;
  */
 public class Values {
 
-    public static String GIT_LINK = "https://api.github.com";
+    public static String GIT_LINK = "http://10.1.3.43:8080/TestRestApp/api";
 
 }

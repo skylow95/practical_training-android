@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">APItest</string>
+    <string name="app_name">AbsencePro</string>
+    <string name="button_bodnarjuk">Info about person</string>
+    <string name="button_types">Info about Types</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="typeName">Type Name</string>
+    <string name="statusId">Status</string>
+    <string name="startTimeTextView">Start Time</string>
+    <string name="endTimeTextView">End Time</string>
+    <string name="deleteAbsence">Delete</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="loginButton">Sign in</string>
+    <string name="chooseAbsenceTypeId">Choose absence type</string>
+    <string name="startDate">Choose date from</string>
+    <string name="endDate">till date</string>
+    <string name="createAbsence">Add absence</string>
+    <string name="tab_date">Date</string>
+    <string name="tab_time">Time</string>
+    <string name="update">update</string>
+    <string name="addAbsenceString">Grateful, create new absence!</string>
+    <string name="errors">Something wrong</string>
+    <string name="error_login">Invalid creditenals</string>
+    <string name="updateSucess">Update success</string>
+    <string name="deleteSucess">Delete success</string>
+    <string name="typename">Type Name</string>
+    <string name="status">Status</string>
+    <string name="startDateTIme">From Date</string>
+    <string name="endDateTime">Till Date</string>
 </resources>

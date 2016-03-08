@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/typeNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/typename"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/statusTextView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/status"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/startTimeTextView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/startDateTIme"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tvEndTime"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/endDateTime"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@mipmap/update"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:src="@mipmap/delete"/>
+
+
+
+
+</LinearLayout>
